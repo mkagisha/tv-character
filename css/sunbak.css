@@ -48,8 +48,8 @@ main {
 }
 main img {
 	max-width:  100% ;
-	width: 100Px;
-	height: 100px ;
+	width: 130Px;
+	height: 130px ;
 }
 main h1 {
 color: #001E3C  ;
@@ -85,23 +85,4 @@ footer a:hover {
 	opacity: .5;
 	background-color:#001E3C ;
 }
-figcaption {
-	font-size:  10px;
-	color: gray;
-}
-figure {
-	display: inline-block;
-}
-.container {
-	display: flex;
-}
-main a {
-	cursor: pointer;
-	text-decoration: underline;
-	color: #001E3C ;
-}
 
-main a:hover {
-   background-color: #001E3C;
-   color: white;
-}
