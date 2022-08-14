@@ -48,11 +48,12 @@ main {
 }
 main img {
 	max-width:  100% ;
-	height: 130px;
-	width: 130px ;
+	width: 100Px;
+	height: 100px ;
 }
 main h1 {
 color: #001E3C  ;
+font-size: 40px;
 }
 iframe {
   height: 300px;
@@ -71,6 +72,36 @@ iframe {
 	background-color: #001E3C;
 	text-align: center;
 	color: ghostwhite;
-	font-weight: bold;
+	font-style: italic;
+	opacity: .8;
+}
+footer a {
+	cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
 
+footer a:hover {
+	opacity: .5;
+	background-color:#001E3C ;
+}
+figcaption {
+	font-size:  10px;
+	color: gray;
+}
+figure {
+	display: inline-block;
+}
+.container {
+	display: flex;
+}
+main a {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #001E3C ;
+}
+
+main a:hover {
+   background-color: #001E3C;
+   color: white;
 }
